@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import logoImg from 'figma:asset/3058c53044f9fb739fe81000c5b11e22e8880103.png';
+import logoImg from '../../assets/images/seller-logo-white.jpeg';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
