@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import heroImage1 from 'figma:asset/80b8f0f090231ea1cb241cd1713719b844c32d90.png';
-import heroImage2 from 'figma:asset/de5239b85faf17b0629cbcbf86dc06ab8031ded5.png';
-import heroImage3 from 'figma:asset/31db8af7818b6f36057d8f2d82036e361f6398b1.png';
-import heroImage4 from 'figma:asset/bcb6cc05c37a72f437167e3585505bdaee929e42.png';
-import heroImage5 from 'figma:asset/affc0153d7a9bc8cbfea2163ecc709ba4beac41c.png';
+import heroImage1 from '../../assets/images/hero-1.jpg';
+import heroImage2 from '../../assets/images/hero-2.jpg';
+import heroImage3 from '../../assets/images/hero-3.jpg';
+import heroImage4 from '../../assets/images/hero-4.jpg';
+import heroImage5 from '../../assets/images/hero-5.jpg';
 
 interface Slide {
   title: string;
